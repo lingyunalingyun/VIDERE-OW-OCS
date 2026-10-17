@@ -1,15 +1,16 @@
 # Better Overwatch Observer Control System (Better OW OCS)
 
-Original, independently developed esports broadcast control system for Overwatch community events.
+Original, independently developed Overwatch community esports broadcast control system.
 
-> **Status:** repository bootstrapping. This is not yet a playable, tested, or production-ready application.
+> Status: governance and architecture REVIEW CANDIDATE. No application implementation, hardware proof, OBS integration or production approval is claimed.
 
-This repository follows three long-lived branches:
+## Canonical branches (case-sensitive)
+- `main`: reviewed stable releases.
+- `beta`: integration/testing branch.
+- `alpha`: isolated high-risk experiments; NOT automatically promoted.
 
-- `Main` — approved stable releases.
-- `Beta` — standard integration and testing.
-- `Alpha` — isolated high-risk experiments.
+Legacy refs `Main` and `Beta` existed at the start of this review and are retained pending separate cleanup approval. Do not target them.
 
-Codex governance, architecture review, and project task documents are being prepared for review on `Beta`. Do **not** interpret initial commits as production approval.
+Codex governance: [AGENTS.md](AGENTS.md), [PLANS.md](PLANS.md), [Branch Policy](docs/governance/BRANCH_POLICY.md), [Initial S0 task](tasks/S0-001-governance-and-discovery.md).
 
-Project policy: no copying code, visual assets, fonts, layouts or other protected material from competing projects. All third-party SDKs and assets require independent permission review.
+Principle: clean-room original implementation. Competitor ideas may inform general requirements, but do not copy competitor code, specialized UI layouts, fonts, game assets or other protected materials. Independently review every dependency and asset license.
